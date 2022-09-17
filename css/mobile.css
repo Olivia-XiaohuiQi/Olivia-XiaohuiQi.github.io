@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    body {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .experiment-sub-title-con {
+        display: block;
+    }
+
+    .experiment-sub-title-time {
+        margin-top: 0.8rem;
+    }
+
+    .experiment-address {
+        font-size: 0.8rem;
+    }
+  }
