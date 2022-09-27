@@ -1,4 +1,11 @@
 /* Default css file for jemdoc. */
+@font-face {
+    font-family: "Times New Roman";
+    src: url(../Times\ New\ Roman.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
 
 table#tlayout {
     border: none;
@@ -6,20 +13,14 @@ table#tlayout {
     background: white;
 }
 
-/*body {
-	background: white;
-	padding-bottom: 8px;
-	margin: 0;
-}
-*/
 html {
     background-color: #eeeeee;
 }
 
 body {
-    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: -apple-system, "Times New Roman", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
     color: #000;
     background-color: #ffffff;
     text-align: left;
@@ -445,4 +446,3 @@ table.imgtable td {
 .experiment-address {
     color: #999999;
 }
-
